@@ -1,7 +1,7 @@
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  存档: /archives
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -14,17 +14,19 @@ widgets:
 - category
 - tag
 - rss
+- tagcloud
+
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: ## RSS address.
+rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
   src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
-favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
+favicon: img/favicon.png   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
 apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
 #### Author Avatar Picture
@@ -56,39 +58,39 @@ fancybox: false
 
 #### Author information
 author:
-  google_plus:    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
+  google_plus: 106642427004837273341   ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
   intro_line1: "" ## eg: "Hello ,I'm Larry Page in Google."
   intro_line2: "" ## eg: "This is my blog,believe it or not."
-  weibo:      ## e.g. 436062867 for http://weibo.com/436062867
-  twitter:    ## e.g. yangjiansky for https://twitter.com/yangjiansky
-  github:     ## e.g. A-limon for https://github.com/A-limon
-  facebook:   ## e.g. yangjian for https://favebook.com/yangjian
-  tsina:      ## e.g. 1664838973  Your weibo ID,It will be used in share button.
+  weibo: yulingtianxia     ## e.g. 436062867 for http://weibo.com/436062867
+  twitter: yulingtianxia   ## e.g. yangjiansky for https://twitter.com/yangjiansky
+  github: yulingtianxia    ## e.g. A-limon for https://github.com/A-limon
+  facebook: yulingtianxia  ## e.g. yangjian for https://favebook.com/yangjian
+  tsina: yulingtianxia     ## e.g. 1664838973  Your weibo ID,It will be used in share button.
   linkedin:   ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
 
 #### Comment
 duoshuo: 
-  enable: false  ## duoshuo.com
-  short_name:    ## duoshuo short name.
+  enable: true  ## duoshuo.com
+  short_name: yulingtianxia   ## duoshuo short name.
 
 #### Share button
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1501277 your jiathis ID. 
-  tsina: ## e.g. 1664838973 Your weibo id,It will be used in share button.
+  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  id: 1912336    ## e.g. 1501277 your jiathis ID. 
+  tsina: yulingtianxia## e.g. 1664838973 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:   ## e.g. UA-1766729-8 your google analytics ID.
-  site: ## e.g. yangjian.me your google analytics site or set the value as auto.
+  enable: true
+  id: UA-49704553-1  ## e.g. UA-1766729-8 your google analytics ID.
+  site: auto## e.g. yangjian.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
 #### Custom Search
 google_cse: 
-  enable: false
-  cx:  ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID
+  enable: true
+  cx: 007120364111268919138:tex1pcfht90 ## e.g. 000561263943549425496:mrzrm0gr4kg your Custom Search ID
 ## https://www.google.com/cse/ 
 ## To enable the custom search You must create a "search" folder in '/source' and a "index.md" file
 ## set the 'front-matter' as
