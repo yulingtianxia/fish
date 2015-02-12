@@ -12,10 +12,8 @@ menu:
 #### Widgets
 widgets: 
 - category
-- tag
-- rss
 - tagcloud
-
+- rss
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
@@ -25,9 +23,9 @@ rss: /atom.xml ## RSS address.
 #### Image
 imglogo:
   enable: true             ## display image logo true/false.
-  src: img/logo.svg        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
+  src: img/favicon.png       ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
 favicon: img/favicon.png   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
-apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
+apple_icon: img/author.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
 #### Author Avatar Picture
 author_img_enable: true ## display author avatar picture
@@ -51,7 +49,7 @@ toc:
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Fancybox
-fancybox: false 
+fancybox: true 
 ## if you use gallery post or want use fancybox please set the value to true.
 ## if you want use fancybox in ANY post please copy the file `fancybox.js`.
 ## in theme folder `/pacman/scripts` to your hexo blog folder `../scritps`.
@@ -59,14 +57,14 @@ fancybox: false
 #### Author information
 author:
   google_plus: 106642427004837273341   ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
-  intro_line1: "" ## eg: "Hello ,I'm Larry Page in Google."
-  intro_line2: "" ## eg: "This is my blog,believe it or not."
+  intro_line1: "I am a slow walker, but I never walk backwards." ## eg: "Hello ,I'm Larry Page in Google."
+  intro_line2: "Life is a journey, not the destination, but the scenery along the should be and the mood at the view." ## eg: "This is my blog,believe it or not."
   weibo: yulingtianxia     ## e.g. 436062867 for http://weibo.com/436062867
   twitter: yulingtianxia   ## e.g. yangjiansky for https://twitter.com/yangjiansky
   github: yulingtianxia    ## e.g. A-limon for https://github.com/A-limon
   facebook: yulingtianxia  ## e.g. yangjian for https://favebook.com/yangjian
   tsina: yulingtianxia     ## e.g. 1664838973  Your weibo ID,It will be used in share button.
-  linkedin:   ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
+  linkedin: yulingtianxia  ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
 
 #### Comment
 duoshuo: 
@@ -75,7 +73,7 @@ duoshuo:
 
 #### Share button
 jiathis:
-  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id: 1912336    ## e.g. 1501277 your jiathis ID. 
   tsina: yulingtianxia## e.g. 1664838973 Your weibo id,It will be used in share button.
 
